@@ -3,13 +3,54 @@ body, html {
 }
 
 body { 
-    background-image: url(/assets/images/OLO2E00.jpg);
+    background-image: url(http://blogs.esa.int/space19plus/files/2019/03/nebula.jpg);
+    /* background-image: url(/assets/images/space-signals-3246.jpg); */
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-color: #000; */
 }
 
 h1 {
     font-size: 2.6em;
+}
+
+
+#random-Number  {
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+    color: #fff;
+    font-size: 4em;
+    padding: 50px;
+    text-align: center;
+}
+ 
+#score-Text {
+    width: 50%;
+    height: 200px;
+    background-color: yellow;
+    color: #000;
+    font-size: 4em;
+    padding: 50px;
+    text-align: center;
+} 
+
+#winLoose {
+    width: 100%;
+    height: 100px;
+    background-color: tan;
+    color: #000;
+    font-size: 1.2em;
+    padding: 30px;
+}
+
+#powerStones {
+    text-align: center;
+    padding: 30px;
+}
+
+#powerStones img {
+    display: inline-block;
 }

@@ -87,8 +87,8 @@ $(document).ready(function () {
 
     });
     $("#score-Text").text(totalScore);
-    $("#wins-Text").text(wins);
-    $("#loses-Text").text(loose);
+    $("#wins-Text").text("Wins: " + wins);
+    $("#loses-Text").text("Loses: " + loose);
     // score = $("#")
 
     
